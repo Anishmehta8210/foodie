@@ -9,12 +9,12 @@ const [nav, setNav] = useState(false)
 
   return (
     <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
-      {/* Left side */}
+      
       <div className='flex items-center'>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
           <AiOutlineMenu size={30} />
         </div>
-        <Link href="" className='text-2xl sm:text-3xl lg:text-4xl px-2 cursor-pointer'>
+        <Link href="/home" className='text-2xl sm:text-3xl lg:text-4xl px-2 cursor-pointer'>
           Best <span className='font-bold'>Eats</span>
         </Link>
         <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
@@ -23,7 +23,7 @@ const [nav, setNav] = useState(false)
         </div>
       </div>
 
-      {/* Search Input */}
+      
       <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
         <AiOutlineSearch size={25} />
         <input
