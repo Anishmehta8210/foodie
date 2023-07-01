@@ -1,7 +1,8 @@
 
 
-import Index from './components';
+import Index from './components/Index';
 import Banner from './components/Banner';
+
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Index/>
+      <Index />
       <Banner />
   
     </>
