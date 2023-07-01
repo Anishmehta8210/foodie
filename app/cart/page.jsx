@@ -42,7 +42,7 @@ const Page = () => {
   return (
     
     <>
-    <div className='flex'>
+    <div className='flex '>
           <div className='w-4/6'><Contents handlePlus={data => handlePlus(data)} handleMinus={data => handleMinus(data)}/></div>
           <div className='w-2/6'><Order order={order}/></div>
       </div>
